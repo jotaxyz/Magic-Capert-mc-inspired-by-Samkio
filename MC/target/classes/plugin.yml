@@ -1,0 +1,17 @@
+name: MagicCarpet
+version: 1.0.0
+main: com.magiccarpet.MagicCarpetPlugin
+api-version: '1.21'
+description: Grief-free magic carpet for Paper 1.21.1
+author: jxtxdev
+
+commands:
+  mc:
+    description: Toggle the magic carpet
+    usage: /mc
+    permission: magiccarpet.use
+
+permissions:
+  magiccarpet.use:
+    description: Allows using the magic carpet
+    default: false

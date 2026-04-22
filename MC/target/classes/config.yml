@@ -1,0 +1,18 @@
+carpet:
+  size: 5
+  edge-material: LIGHT_BLUE_STAINED_GLASS
+  center-material: GLOWSTONE
+  use-center-block: true
+
+movement:
+  descend-per-tick: 0.2
+  ascend-per-jump: 1.0
+  ascend-ticks-per-jump: 2
+
+placement:
+  only-air: true
+
+messages:
+  enabled: "&bMagic Carpet enabled."
+  disabled: "&cMagic Carpet disabled."
+  no-permission: "&cYou do not have permission to use this."

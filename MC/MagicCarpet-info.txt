@@ -1,0 +1,52 @@
+MagicCarpet - Guia Rapido
+
+Descricao
+O plugin MagicCarpet adiciona um tapete magico temporario para jogadores em servidores Paper 1.21.1.
+O tapete e visual, acompanha o jogador em tempo real e foi feito para ser grief-free, ou seja, sem
+alterar permanentemente o mapa.
+Autor: jxtxdev
+
+Funcionalidades
+- Comando /mc para ativar ou desativar o tapete magico.
+- Plataforma configuravel, com 5x5 por padrao.
+- Material das bordas configuravel.
+- Bloco central configuravel, com opcao de desativar o centro especial.
+- Atualizacao constante para o tapete seguir o jogador.
+- Subida ao pular com intensidade configuravel.
+- Descida suave enquanto o jogador segura Shift/Sneak, tambem configuravel.
+- Remocao automatica quando o jogador desloga.
+- Protecao contra quebra, dano, interacao e explosoes nos blocos do tapete.
+- Mensagens configuraveis.
+
+Protecao do mapa
+- O tapete so e colocado em blocos de ar.
+- Blocos solidos do mundo nao sao substituidos.
+- Os blocos temporarios do tapete sao restaurados/removidos quando ele se move ou e desativado.
+- Os blocos do tapete nao dropam itens.
+
+Comando
+- /mc
+  Ativa ou desativa o tapete magico para o jogador.
+
+Permissoes
+- magiccarpet.use
+  Permite usar o comando /mc e ativar o tapete magico.
+  Default: false
+  Recomendado para grupos VIP ou jogadores com permissao manual.
+
+Customizacao
+- Arquivo principal: config.yml
+- Opcoes atuais:
+  size do carpete
+  material das bordas
+  material do centro
+  ativar/desativar bloco central especial
+  velocidade de descida
+  intensidade da subida
+  quantidade de ticks de subida por pulo
+  mensagens do plugin
+
+Observacoes
+- Plugin desenvolvido para Paper 1.21.1.
+- Build com Maven e Java 21.
+- Arquivo principal do plugin: magiccarpet-1.0.0.jar

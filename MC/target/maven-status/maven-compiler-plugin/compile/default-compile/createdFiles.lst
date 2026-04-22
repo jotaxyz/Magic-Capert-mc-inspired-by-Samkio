@@ -1,0 +1,6 @@
+com\magiccarpet\CarpetConfig.class
+com\magiccarpet\CarpetBlockState.class
+com\magiccarpet\MagicCarpetPlugin.class
+com\magiccarpet\MagicCarpetListener.class
+com\magiccarpet\CarpetSession.class
+com\magiccarpet\MagicCarpetCommand.class
